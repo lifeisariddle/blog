@@ -48,7 +48,7 @@ show_dates:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://lifeisariddle.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -87,7 +87,7 @@ pagination_dir: page
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/lifeisariddle/blog-host
+  repo: https://github.com/lifeisariddle/lifeisariddle.github.io
   branch: master
 
 # Date / Time format
@@ -143,3 +143,6 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+include:
+  - .nojekyll
