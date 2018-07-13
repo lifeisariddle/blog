@@ -144,5 +144,5 @@ node_sass:
   precision: 5
   sourceComments: false
 
-include:
-  - .nojekyll
+  #include:
+  #- .nojekyll
