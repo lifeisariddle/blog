@@ -138,11 +138,11 @@ fivehundredpx_url: https://500px.com/
 email_url: \#
 rss_url: \#
 
-node_sass:
-  debug: false
-  outputStyle: nested
-  precision: 5
-  sourceComments: false
+#node_sass:
+#  debug: false
+#  outputStyle: nested
+#  precision: 5
+#  sourceComments: false
 
-  #include:
-  #- .nojekyll
+include:
+    - .nojekyll
